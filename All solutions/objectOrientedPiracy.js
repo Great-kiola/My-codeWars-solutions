@@ -12,22 +12,26 @@ class Ship {
     this.draft = draft
     this.crew = crew
   }
-  
+
   /*
     created a method that checks the crew then removes it from the ships draft if the
     draft is still more than 20 then the ship is worth looting
   */
 
+  // isWorthIt (){
+  //   let checkCrew = this.draft - (this.crew * 1.5)    
+  //   let newCheck = checkCrew > 20
+  //   console.log(newCheck)
+    
+  //   return checkCrew > 20     
+  // }
+
+  // best Practice
   isWorthIt (){
-    let checkCrew = this.draft - (this.crew * 1.5)
-
-    let newCheck = checkCrew > 20 ? true : false 
-
-    console.log(newCheck)
-    // return checkCrew > 20 ? true : false    
+    return this.draft - (this.crew * 1.5) > 20        
   }
 
 }
 
-const titanic = new Ship(30, 5)
-titanic.isWorthIt()
+const titanic = new Ship(50, 15)
+console.log(titanic.isWorthIt())
