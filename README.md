@@ -5,3 +5,9 @@ This repo would contain all my codewars solutions, both my solution and the best
 code Wars is a website that provides challenges called kata that is used to practice various languages, in my own case javascript but can also be used for java, python, c++ and many others.
 
 Link to codeWars: [codewars](https://www.codewars.com/dashboard)
+
+## Gamification
+It uses a game like rank to level up based on the difficulty(kyu) of the kata you complete. **Current Rank: 7kyu**
+
+see more on how ranks are awarded: [Here](https://docs.codewars.com/gamification/ranks#awarded-score)
+
