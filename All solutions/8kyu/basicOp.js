@@ -32,3 +32,5 @@ function basicOp(operation, value1, value2) {
 }
 
 console.log(basicOp("+", 2, 3));
+console.log(basicOp("-", 2, 3));
+console.log(basicOp("/", 5, 5));
