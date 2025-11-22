@@ -7,7 +7,7 @@ code Wars is a website that provides challenges called kata that is used to prac
 Link to codeWars: [codewars](https://www.codewars.com/dashboard)
 
 ## Gamification
-It uses a game like rank to level up based on the difficulty(kyu) of the kata you complete. **Current Rank: 7kyu**
+It uses a game like rank to level up based on the difficulty(kyu) of the kata you complete. **Current Rank: 6kyu**
 
 see more on how ranks are awarded: [Here](https://docs.codewars.com/gamification/ranks#awarded-score)
 
