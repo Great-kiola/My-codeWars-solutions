@@ -13,6 +13,10 @@ function abbrevName(name) {
     let firstinitial = nameSplit[0][0], secondinitial = nameSplit[1][0]
     console.log((firstinitial + "." + secondinitial).toUpperCase())
 
+    // Best Method
+    // var nameArray = name.split(" ");
+    // return (nameArray[0][0] + "." + nameArray[1][0]).toUpperCase();
+
 }
 
 abbrevName("Sam Harris")
