@@ -13,5 +13,5 @@ function findNeedle(haystack) {
     }
 
     // Best Method
-    return "found the needle at position " + haystack.indexOf("needle"); 
+    // return "found the needle at position " + haystack.indexOf("needle");
 }
