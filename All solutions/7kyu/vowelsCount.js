@@ -6,19 +6,19 @@
 
 function getCount(str) {
   
-//   let sum = ""
-//   let convertCase = str.toLowerCase()
+  let sum = ""
+  let convertCase = str.toLowerCase()
 
-//   for (let i=0; i<str.length; i++){
+  for (let i=0; i<str.length; i++){
 
-//     if(convertCase[i] == "a" || convertCase[i] == "e" || convertCase[i] == "i" || convertCase[i] == "o" || convertCase[i] == "u" ){
-//       sum += str[i]
-//     }
-//   }
-//   return sum.length;
+    if(convertCase[i] == "a" || convertCase[i] == "e" || convertCase[i] == "i" || convertCase[i] == "o" || convertCase[i] == "u" ){
+      sum += str[i]
+    }
+  }
+  return sum.length;
 
   // Best Method
-  return (str.match(/[aeiou]/ig)||[]).length;
+  // return (str.match(/[aeiou]/ig)||[]).length;
 
 }
 
