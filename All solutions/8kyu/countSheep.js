@@ -3,23 +3,24 @@
 // }
 
 var countSheep = (num) => {
-    
-  if (num === 0){
-    return "0"
-  }
-  
-//   for (let i=1 ; i <= 3; i++){
-//     console.log(num[i] + " sheep...")
-//   } 
 
-  let array = ""
-  
-  for (let i = 1; i <= num; i++) {
-    array += i + " sheep..."
-  }
+    if (num === 0) {
+        return "0"
+    }
 
-  return array
-  
+
+    let array = []
+
+    for (let i = 1; i <= num; i++) {
+        array.push(i + " sheep...")
+    }
+
+    return array.join("")
+
+    // Best method
+    // let str = "";
+    //   for(let i = 1; i <= num; i++) { str+= `${i} sheep...`; }
+    //   return str;
 
 }
 
