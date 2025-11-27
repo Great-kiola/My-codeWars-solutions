@@ -7,17 +7,15 @@
 */
 
 const areaOrPerimeter = function (l, w) {
-    // Return your answer
 
-    // if (l === w) {
-    //     return l ** 2
-    // } else {
-    //     return 2 * (l + w)
-    // }
+    if (l === w) {
+        return l ** 2
+    } else {
+        return 2 * (l + w)
+    }
 
     // Best Method
-
-    return l === w ? l**2 : 2 *(l*w)
+    // return l === w ? l**2 : 2 *(l*w)
 };
 
 console.log(areaOrPerimeter(3, 3)) 
