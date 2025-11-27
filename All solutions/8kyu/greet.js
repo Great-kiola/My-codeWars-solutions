@@ -8,11 +8,11 @@ function greet(name, owner) {
     return name == owner ? "Hello boss" : "Hello guest"
 
     // Best Method
-    const greetings = {
+    // const greetings = {
 
-       [true] :'Hello boss',
-       [false]:'Hello guest',
-    }
+    //    [true] :'Hello boss',
+    //    [false]:'Hello guest',
+    // }
 
-    return greetings[name === owner]
+    // return greetings[name === owner]
 }
