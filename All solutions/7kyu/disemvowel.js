@@ -5,25 +5,19 @@
 */
 
 
-function disemvowel(str) {
+// function disemvowel(str) {
 
-    const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
-    let wordsplit = str.split("")
+//     const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+//     let wordsplit = str.split(""), wordString = "";
 
-    let wordString = "";
+//     for (let i = 0; i < wordsplit.length; i++) {
+//         if (!vowels.includes(wordsplit[i])) {
+//             wordString += wordsplit[i]
+//         }
+//     }
 
+//     return wordString
 
-    for (let i = 0; i < wordsplit.length; i++) {
-        if (!vowels.includes(wordsplit[i])) {
-            wordString += wordsplit[i]
-        }
-    }
-
-    return wordString
-
-
-    // Best Method
-    // return str.replace(/[aeiou]/gi, '');
-
-
-}
+//     // Best Method
+//     // return str.replace(/[aeiou]/gi, '');
+// }
