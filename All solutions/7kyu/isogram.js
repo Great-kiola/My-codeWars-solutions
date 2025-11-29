@@ -4,30 +4,21 @@
     Example: "Dermatoglyphics" --> true
 */
 
-// function isIsogram(str) {
-//     let toLower = str.toLowerCase()
+function isIsogram(str) {
+    let toLower = str.toLowerCase()
 
-//     let container = '';
-//     for (let i = 0; i < toLower.length; i++) {
-//         if (container.includes(toLower[i])) {
-//             return false
-//         } else {
-//             container += toLower[i]
-//         }
-//     }
-//     return true
+    let container = '';
+    for (let i = 0; i < toLower.length; i++) {
+        if (container.includes(toLower[i])) {
+            return false
+        } else {
+            container += toLower[i]
+        }
+    }
+    return true
 
-//     // Best Method
-//     // return new Set(str.toUpperCase()).size == str.length;
+    // Best Method
+    // return new Set(str.toUpperCase()).size == str.length;
 
-// }
-
-
-let removeDuplicates = (x) => {
-
-    
-    return [...new Set(x)]
 }
 
-
-console.log(removeDuplicates([1,2,3,4,3,2]))
