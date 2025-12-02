@@ -13,4 +13,10 @@ function removeEveryOther(arr) {
     }
 
     return arr
+
+    // Best Method
+    // return arr.filter(function (elem, index) {
+    //     return index % 2 === 0;
+    // });
+
 }
