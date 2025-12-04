@@ -6,29 +6,29 @@
     i.e: "test" --> "es"
 */
 
-// function getMiddle(s) {
+function getMiddle(s) {
 
-//     let result = ""
-//     let charArr = s.split("")
-//     let n = charArr.length
+    let result = ""
+    let charArr = s.split("")
+    let n = charArr.length
 
 
-//     if (n % 2 === 0) {
-//         result += charArr[n / 2 - 1]
-//         result += charArr[n / 2]
-//         return result
+    if (n % 2 === 0) {
+        result += charArr[n / 2 - 1]
+        result += charArr[n / 2]
+        return result
 
-//     } else {
-//         result += charArr[Math.floor(n / 2)]
-//         return result
-//     }
+    } else {
+        result += charArr[Math.floor(n / 2)]
+        return result
+    }
 
-//     // Best Method
-//     // let n = s.length
-//     // return n % 2 === 0 ? s[n / 2 - 1] + s[n / 2] : s[Math.floor(n / 2)]
-// }
+    // Best Method
+    // let n = s.length
+    // return n % 2 === 0 ? s[n / 2 - 1] + s[n / 2] : s[Math.floor(n / 2)]
+}
 
-// console.log(getMiddle("Testy"))
+console.log(getMiddle("Testy"))
 
 
 var findMedianSortedArrays = function(nums1, nums2) {
