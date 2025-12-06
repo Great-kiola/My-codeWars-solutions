@@ -19,6 +19,7 @@ function addBinary(a, b) {
     while (y > 1) {
         x = y % 2;
         y = Math.floor(y / 2);
+
         binary.push(x);
     };
 
@@ -27,4 +28,4 @@ function addBinary(a, b) {
 }
 
 
-console.log(addBinary(1,1))
+console.log(addBinary(5,3))
