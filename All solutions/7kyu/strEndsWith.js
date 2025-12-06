@@ -15,9 +15,8 @@ function solution(str, ending) {
         }
     }
     return true
-
+    
     // Best Method
     // return str.endsWith(ending);
-
 }
 
