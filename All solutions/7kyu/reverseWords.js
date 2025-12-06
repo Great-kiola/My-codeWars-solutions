@@ -14,5 +14,5 @@ function reverseWords(str) {
     return newArr.join(' ')
 
     // Best method
-    return str.split(' ').map(str => str.split('').reverse().join('')).join(' ');
+    // return str.split(' ').map(str => str.split('').reverse().join('')).join(' ');
 }
