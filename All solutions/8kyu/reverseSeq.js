@@ -18,3 +18,28 @@ const reverseSeq = n => {
     //     arr.push(i);
     // } return arr;
 }
+
+
+var reverseString = function (s) {
+
+    let l = 0
+    let r = s.length - 1
+    while (l <= r) {
+        let a = s[l]
+        s[l] = s[r]
+        s[r] = a
+        l++
+        r--
+    }
+    return s
+};
+
+var reverseString = function (s) {
+    let long = s.length - 1;
+    
+    for (let i = 0; i < (long / 2); i++) {
+        let temp = s[i];
+        s[i] = s[long - i];
+        s[long - i] = temp;
+    }
+};
