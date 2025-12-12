@@ -3,6 +3,6 @@
     and sum all the squares.
 */
 
-// function squareSum(numbers){
-//   return numbers.reduce((sum, n) => (n*n) + sum, 0 )
-// }
+function squareSum(numbers){
+  return numbers.reduce((sum, n) => (n*n) + sum, 0 )
+}
