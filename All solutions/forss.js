@@ -18,21 +18,23 @@ let obj  = {
 // }
 
 // for in
-for (let q in arr){
-    console.log(q)
+// for (let q in arr){
+//     console.log(q)
 
-}
+// }
 
 /*
     In for each and for of 
 */
 
 // for Each
-// arr.forEach((num) => {
-//     console.log(num)
-// })
+arr.forEach((i) => {
+    console.log(i)
+    // console.log("index " + j)
+    // console.log(`Index: ${i}`)
+})
 
 // for of
-for(let key of arr){
-    console.log(key)
-}
+// for(let key of arr){
+//     console.log(key)
+// }
