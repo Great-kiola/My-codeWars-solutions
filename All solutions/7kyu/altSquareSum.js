@@ -8,3 +8,25 @@
 
     11 + 12^2 + 13 + 14^2 + 15 = 379
 */
+
+function alternateSqSum(arr) {
+    // happy coding :D
+    let evenpos = []
+    let oddpos = []
+
+    if (arr.length == 0) return 0
+
+    for (let i = 0; i < arr.length; i++) {
+        if ((i + 1) % 2 == 0) {
+            evenpos.push(arr[i] ** 2)
+        } else {
+            oddpos.push(arr[i])
+        }
+    }
+
+    return evenpos.reduce((a, b) => a + b) + oddpos.reduce((a, b) => a + b)
+
+    // Best method
+    arr.reduce((pre, val, idx) => pre + (idx % 2 ? val ** 2 : val), 0);
+
+}
