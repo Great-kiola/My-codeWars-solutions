@@ -5,6 +5,6 @@
 */
 
 
-function inverse(array){
-    return array.map((e) => -e)
-}
+// function inverse(array){
+//     return array.map((e) => -e)
+// }
