@@ -13,6 +13,6 @@ function betterThanAverage(classPoints, yourPoints) {
     return yourPoints > classAverage ? true : false
 
     // Better Method
-    return yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length;
+    // return yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length;
 
 }
