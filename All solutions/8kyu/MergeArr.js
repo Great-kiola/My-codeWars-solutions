@@ -18,3 +18,25 @@ function mergeArrays(arr1, arr2) {
     // return Array.from(new Set(arr1.concat(arr2).sort((a,b) => (a-b))));
 
 }
+
+
+
+function findMissing(x){
+    let min = Math.min(...x)
+    let max = Math.max(...x)
+
+    let sort = x.sort((a,b) => a-b)
+
+    for(let i = min; i < max; i++){
+        for (let j =0 ; j<sort.length; j++){
+            if (x[i] != sort[j]){
+                return sort[j]
+            }
+        }
+    }
+
+    console.log(min, max)
+}
+
+
+console.log(findMissing([1,3,0]))
