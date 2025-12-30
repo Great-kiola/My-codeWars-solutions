@@ -28,4 +28,4 @@ function addBinary(a, b) {
 }
 
 
-console.log(addBinary(5,3))
+// console.log(addBinary(5,3))
