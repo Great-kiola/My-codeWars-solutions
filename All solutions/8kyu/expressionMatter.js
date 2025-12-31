@@ -13,3 +13,13 @@
     The maximum value that can be obtained is 9.
 
 */
+
+function expressionMatter(a, b, c) {
+    return Math.max(
+        a * (b + c),
+        a * b * c,
+        a + b * c,
+        (a + b) * c,
+        a + b + c
+    )
+}
