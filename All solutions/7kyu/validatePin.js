@@ -7,7 +7,7 @@
 */
 
 function validatePIN(pin) {
-    
+
     let regex4 = /^\d{4}$/g
     let regex6 = /^\d{6}$/g
 
@@ -16,4 +16,8 @@ function validatePIN(pin) {
     } else {
         return false
     }
+
+    // Best Method
+    // return /^(\d{4}|\d{6})$/.test(pin)
+
 }
