@@ -11,7 +11,7 @@ function abbrevName(name) {
 
     let nameSplit = name.split(" ")
     let firstinitial = nameSplit[0][0], secondinitial = nameSplit[1][0]
-    console.log((firstinitial + "." + secondinitial).toUpperCase())
+    console.log((firstinitial + "." + secondinitial).toUpperCase());
 
     // Best Method
     // var nameArray = name.split(" ");
