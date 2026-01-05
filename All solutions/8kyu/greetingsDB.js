@@ -22,8 +22,6 @@ var database = {
     welsh: 'Croeso'
 }
 
-console.log(database[1])
-
 function greet(language) {
     return database[language] || "Welcome";
 }
