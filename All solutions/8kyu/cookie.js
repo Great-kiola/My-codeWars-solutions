@@ -11,7 +11,7 @@ function cookie() {
 
 
     // Other Method
-    var t = typeof x
+    // var t = typeof x
     var who = t == "string" ? 'Zach' : 
               t == "number" ? 'Monica' : 'the dog'
 
