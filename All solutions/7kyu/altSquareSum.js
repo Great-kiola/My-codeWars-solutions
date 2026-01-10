@@ -27,6 +27,6 @@ function alternateSqSum(arr) {
     return evenpos.reduce((a, b) => a + b) + oddpos.reduce((a, b) => a + b)
 
     // Best method
-    arr.reduce((pre, val, idx) => pre + (idx % 2 ? val ** 2 : val), 0);
+    // arr.reduce((pre, val, idx) => pre + (idx % 2 ? val ** 2 : val), 0);
 
 }
