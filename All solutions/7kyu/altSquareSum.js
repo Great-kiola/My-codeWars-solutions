@@ -32,16 +32,16 @@ function alternateSqSum(arr) {
 }
 
 
-function findNumber(arr, k){
-    for(let i=0; i < arr.length; i++){
-        console.log(arr[i])
+// function findNumber(arr, k){
+//     for(let i=0; i < arr.length; i++){
+//         console.log(arr[i])
 
-        if(arr[i] === k){
-            return "YES"
-        }
-    }
+//         if(arr[i] === k){
+//             return "YES"
+//         }
+//     }
 
-    return "NO"
-}
+//     return "NO"
+// }
 
-console.log(findNumber([1,2,3,5,6] , 12))
+// console.log(findNumber([1,2,3,5,6] , 12))
