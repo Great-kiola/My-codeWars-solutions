@@ -11,14 +11,14 @@ function XO(str) {
     let countX = 0
 
     let lower = str.toLowerCase()
-    // for (let i = 0; i < lower.length; i++) {
-    //     if (lower[i] == "x") {
-    //         countX++
-    //     } else if (lower[i] == "o") {
-    //         countO++
-    //     }
-    // }
-    // return countO == countX
+    for (let i = 0; i < lower.length; i++) {
+        if (lower[i] == "x") {
+            countX++
+        } else if (lower[i] == "o") {
+            countO++
+        }
+    }
+    return countO == countX
 
     //Best Method
     // str = str.toLowerCase().split('');
