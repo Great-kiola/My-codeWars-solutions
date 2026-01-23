@@ -21,5 +21,5 @@ function validParentheses(parenStr) {
         }
     }
 
-    // return newArr.length == 0
+    return newArr.length == 0
 }
