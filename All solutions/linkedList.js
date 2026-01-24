@@ -1,7 +1,7 @@
 class Node{
     constructor(data){
         this.data = data
-        this.next = null
+        this.head = null
     }
 }
 
@@ -13,9 +13,8 @@ class LinkedList {
 
     append(data){
         const node = new Node(data)
-        if (!this.head){
-            this.head = node
-        }else{
+        if (this.head == null) this.head = node
+        else{
             let current = this.head
             while(current.next != null){
                 current = current.next
@@ -26,7 +25,7 @@ class LinkedList {
     }
 
     isEmpty(){
-        return this.length === 0
+        return this.length === null
     }
 
     print(){
@@ -48,8 +47,7 @@ class LinkedList {
 const list = new LinkedList()
 list.append(20)
 list.append(25)
-list.append(50)
+list.append(20)
 list.print()
-
 
 console.log(list.isEmpty())
