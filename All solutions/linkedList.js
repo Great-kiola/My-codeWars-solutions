@@ -44,10 +44,10 @@ class LinkedList {
 }
 
 
-const list = new LinkedList()
-list.append(20)
-list.append(25)
-list.append(20)
-list.print()
+// const list = new LinkedList()
+// list.append(20)
+// list.append(25)
+// list.append(20)
+// list.print()
 
-console.log(list.isEmpty())
+// console.log(list.isEmpty())
