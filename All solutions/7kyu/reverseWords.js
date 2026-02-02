@@ -5,14 +5,14 @@
 */
 
 function reverseWords(str) {
-    let splits = str.split(" ")
-    let newArr = []
+    // let splits = str.split(" ")
+    // let newArr = []
 
-    for (el of splits) {
-        newArr.push(el.split("").reverse().join(""))
-    }
-    return newArr.join(' ')
+    // for (el of splits) {
+    //     newArr.push(el.split("").reverse().join(""))
+    // }
+    // return newArr.join(' ')
 
     // Best method
-    // return str.split(' ').map(str => str.split('').reverse().join('')).join(' ');
+    return str.split(' ').map(str => str.split('').reverse().join('')).join(' ');
 }
