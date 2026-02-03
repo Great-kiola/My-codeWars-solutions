@@ -30,18 +30,3 @@ function alternateSqSum(arr) {
     arr.reduce((pre, val, idx) => pre + (idx % 2 ? val ** 2 : val), 0);
 
 }
-
-
-// function findNumber(arr, k){
-//     for(let i=0; i < arr.length; i++){
-//         console.log(arr[i])
-
-//         if(arr[i] === k){
-//             return "YES"
-//         }
-//     }
-
-//     return "NO"
-// }
-
-// console.log(findNumber([1,2,3,5,6] , 12))
