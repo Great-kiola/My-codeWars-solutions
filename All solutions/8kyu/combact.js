@@ -8,7 +8,11 @@
 
 function combat (health, damage){
     let newHealth = health - damage
-    return newHealth < 0 ? 0 : newHealth
+    // return newHealth < 0 ? 0 : newHealth
+
+    // Best method
+    return Math.max(newHealth, 0)
 
 }
 
+console.log(combat(30, 10))
