@@ -18,10 +18,9 @@ let obj  = {
 // }
 
 // for in
-// for (let q in arr){
-//     console.log(q)
-
-// }
+for (let q in arr){
+    console.log(q)
+}
 
 /*
     In for each and for of 
