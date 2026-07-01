@@ -13,11 +13,13 @@ function highAndLow(numbers) {
     let highest = sort[sort.length - 1].toString(),
     lowest = sort[0].toString()
     
-    return `${highest} ${lowest}`
+    // return `${highest} ${lowest}`
 
     // Best Method
     // numbers = numbers.split(' ');
     // return `${Math.max(...numbers)} ${Math.min(...numbers)}`;
+
+    console.log(sort)
 }
 
-console.log(highAndLow("4 5 29 54 4 0 -214 542 -64 1 -3 6 -6"))
+highAndLow("4 5 29 54 4 0 -214 542 -64 1 -3 6 -6")
