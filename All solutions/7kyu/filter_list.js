@@ -11,3 +11,10 @@ function filter_list(l) {
 
 
 console.log(filter_list([1,'a','b',0,15]))
+
+
+let newArr = [1,3,4,5,6,7]
+newArr.length = 0
+
+console.log(newArr.length)
+console.log(newArr)
