@@ -18,3 +18,5 @@ newArr.length = 0
 
 console.log(newArr.length)
 console.log(newArr)
+
+
